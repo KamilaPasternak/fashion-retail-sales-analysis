@@ -1,2 +1,3 @@
-# fashion-retail-sales-analysis
-Sales, pricing, seasonality and inventory analysis using MySQL and Excel
+# Fashion retail sales analysis - [SQL + Excel]
+---
+## The goal of the project was to analyze data in terms of sales, prices, seasonality and inventory levels.
