@@ -1,15 +1,16 @@
 # Fashion retail sales analysis - [SQL + Excel]
-### 🎯 The goal of the project was to analyze data in terms of sales, prices, seasonality and inventory levels.
+### 🎯 This project focuses on analyzing an online fashion retailer operating across multiple countries. The analysis covers key business areas such as sales performance, pricing, seasonality, and inventory levels. The dataset spans 10 years of historical data (2014–2024), allowing for long-term trend and pattern analysis.
 ---
 ## 🗂️ Data & Methodology
 Data source: 
 
 This project uses synthetic data generated with ChatGPT for analytical and educational purposes.
 
-Steps:
-1. Data quality testing.
-2. Data cleansing (removing duplicates, standardizing dates, unifying values).
-3. Preparing data for analysis using MySQL.
+Methodology:
+
+1. Data quality assessment and validation.
+2. Data cleaning (removal of duplicates, standardization of date formats, and value normalization).
+3. Data preparation and analysis using MySQL.
 4. Results visualization and calculation in Excel.
 ---
 ## 📊 Results
