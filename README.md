@@ -1,6 +1,8 @@
-# Fashion retail sales analysis - [SQL + Excel]
-### 🎯 This project focuses on analyzing an online fashion retailer operating across multiple countries. The analysis covers key business areas such as sales performance, pricing, seasonality, and inventory levels. The dataset spans 10 years of historical data (2014–2024), allowing for long-term trend and pattern analysis.
+# Fashion Retail Sales Analysis - [SQL + Excel]
 ---
+## 🎯 Business Goal
+This project focuses on analyzing an online fashion retailer operating across multiple countries. The analysis covers key business areas such as sales performance, pricing, seasonality, and inventory levels. The dataset spans 10 years of historical data (2014–2024), allowing for long-term trend and pattern analysis.
+
 ## 🗂️ Data & Methodology
 Data source: 
 
