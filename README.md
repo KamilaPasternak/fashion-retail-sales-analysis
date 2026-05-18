@@ -51,6 +51,32 @@ To assess seasonality, I aggregated revenue by month and calculated monthly aver
 
 This highlights distinct recurring peaks, confirming a strong seasonal pattern in the dataset.
 
+The lowest sales levels were recorded at the beginning of the year, particularly in January and February, followed by gradual growth throughout the remaining months.
 The analysis revealed a clear seasonal pattern, with revenue peaking in November and December, likely driven by holiday shopping demand.
 
 ### Sales Performance by Product Category
+Product category analysis was conducted to determine which categories contributed the most to overall sales performance.
+
+<img width="752" height="452" alt="image" src="https://github.com/user-attachments/assets/c418fc77-c409-4d88-b7eb-785ff01fc875" />
+
+The two leading categories, Shoes and Women, together accounted for 53% of total revenue.
+
+To identify the strongest-performing product categories, sales data was analyzed by category using three key indicators: total revenue, sales volume, and average selling price.
+
+<img width="1118" height="662" alt="image" src="https://github.com/user-attachments/assets/6475c764-5c5b-4b86-acd0-54fa4f259761" />
+
+Bubble size represents total revenue, highlighting how sales volume and average price jointly influenced category performance.
+
+Shoes generated high revenue primarily due to the highest average price, despite only moderate sales volume. In contrast, the Women category combined the highest sales volume with the second-highest average price, making it a strong contributor across both pricing and quantity dimensions.
+It is worth noting that the Kids category recorded the highest sales volume, while at the same time having the lowest average selling price among all categories. This may indicate an opportunity for further pricing strategy optimization within this segment.
+
+The relative performance of product categories remained stable over the 10-year period. Although all categories showed steady growth, their ranking and proportional contribution did not significantly change over time.
+
+I also examined whether seasonal sales patterns existed across categories. Seasonal fluctuations were consistent across all categories, suggesting that customer purchasing behavior followed similar patterns regardless of product type.
+
+To assess whether higher-priced product segments were associated with lower sales volume, subcategory-level sales quantities were compared against average base prices within each main product category.
+
+<img width="1080" height="591" alt="image" src="https://github.com/user-attachments/assets/2532caeb-e3b1-4787-9e65-27a25bc9acab" />
+
+Orange bars represent total units sold, while the blue line shows average base price per subcategory.
+
