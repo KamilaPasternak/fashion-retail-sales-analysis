@@ -119,7 +119,7 @@ This analysis segments inventory to identify operational risks related to stock 
 
 Across all countries, inventory issues were relatively consistent, averaging around 16%.
 
-<img width="752" height="451" alt="image" src="https://github.com/user-attachments/assets/5ad6055d-7e7d-4dfe-b7fa-c0b7fa4cdee3" />
+<img width="785" height="452" alt="image" src="https://github.com/user-attachments/assets/e3720324-c61b-4e02-96ea-d8036a3d747c" />
 
 Initial inventory checks showed a relatively balanced stock distribution across countries. However, Poland recorded the highest number of low-stock products, while Germany had the highest number of outdated items.
 
