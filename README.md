@@ -16,14 +16,14 @@ Methodology:
 4. Results visualization and calculation in Excel.
 
 ## 📊 Results
-### How have the company’s revenues developed over time?
+### 1. Revenue Trend Over Time
 The chart below shows annual revenue from 2015 to 2024, along with year-over-year percentage growth.
 
 <img width="1187" height="622" alt="image" src="https://github.com/user-attachments/assets/5013c3ae-fc43-47a0-9fbc-2f657f295483" />
 
 The company recorded positive growth every year. The highest growth was observed in 2016, after which it stabilized at around 3–4%, declining to just 1% in 2023. In 2024, growth increased again to 5%.
 
-### What is driving the company’s revenue growth: higher prices or increased sales volume?
+### Revenue Growth Drivers
 To analyze what actually drove the growth, I compared the total annual sales volume with the average annual selling price. 
 
 <img width="1014" height="572" alt="image" src="https://github.com/user-attachments/assets/106a555a-c354-4bff-96a2-c205a9da9b5e" />
@@ -54,7 +54,7 @@ This highlights distinct recurring peaks, confirming a strong seasonal pattern i
 The lowest sales levels were recorded at the beginning of the year, particularly in January and February, followed by gradual growth throughout the remaining months.
 The analysis revealed a clear seasonal pattern, with revenue peaking in November and December, likely driven by holiday shopping demand.
 
-### Sales Performance by Product Category
+### 2. Sales Performance by Product Category
 Product category analysis was conducted to determine which categories contributed the most to overall sales performance.
 
 <img width="752" height="452" alt="image" src="https://github.com/user-attachments/assets/c418fc77-c409-4d88-b7eb-785ff01fc875" />
@@ -78,13 +78,11 @@ To assess whether higher-priced product segments were associated with lower sale
 
 <img width="1080" height="591" alt="image" src="https://github.com/user-attachments/assets/2532caeb-e3b1-4787-9e65-27a25bc9acab" />
 
-Orange bars represent total units sold, while the blue line shows average base price per subcategory.
-
 Subcategory analysis indicated that pricing alone was not a reliable predictor of sales volume. Neither higher-priced nor lower-priced subcategories consistently showed expected sales patterns. Instead, demand appeared to be more strongly influenced by product type.
 
 Four subcategories stood out due to their exceptionally high sales volumes despite being positioned within the mid-price range. However, this trend was not consistent across all mid-priced products, suggesting that factors other than price also played an important role in customer demand.
 
-### Discount Impact Analysis
+### 3. Discount Impact Analysis
 Approximately 12% of records in the `discount_pct` column contained empty strings instead of numeric values. These were converted to NULL to preserve missing-value information during analysis.
 Discount values were categorized into three groups: missing values (NULL), orders without discounts (0%), and orders with active discounts (>0%). Only records with confirmed discount values greater than zero were used for promotion impact analysis.
 
@@ -95,3 +93,64 @@ The following analysis was conducted to evaluate how discounts affected sales pe
 
 The average discount applied to promotional orders was 14.17%, with discounts ranging from 0.01% to 60.58%. Discounted transactions accounted for a substantial share of total orders, indicating that promotional pricing was a common sales strategy.
 
+Discount analysis across countries and product categories showed highly consistent patterns. Average discount levels, discount ranges, and the share of discounted orders were nearly identical across all segments.
+
+To assess whether larger discounts stimulated customer purchases, transactions with active discounts were grouped into discount ranges and compared based on average sales volume.
+
+<img width="809" height="452" alt="image" src="https://github.com/user-attachments/assets/aa1f76a6-2077-4d5f-a4b0-ba05f010acb3" />
+<img width="508" height="121" alt="image" src="https://github.com/user-attachments/assets/11da4cb3-21f7-4c39-8f5f-15729c961e3a" />
+
+The analysis showed that increasing discount levels had almost no impact on sales volume. Average quantity remained nearly identical across all discount ranges, suggesting that larger discounts did not significantly encourage customers to purchase more items per order.
+
+Most discounted transactions were concentrated in the 10–20% range, while discounts above 30% were used relatively infrequently.
+
+### 4. Inventory Performance Analysis
+To assess inventory efficiency, stock levels were analyzed across countries to identify products at risk of stock shortages, outdated inventory, and overstock situations.
+
+Inventory condition rules
+
+This analysis segments inventory to identify operational risks related to stock levels and data freshness. Products are classified based on low stock and outdated inventory records, with results aggregated by country to highlight key risk areas across markets.
+
+* Low stock only: sufficient data recency, but low inventory levels (≤ 15 units)
+* Outdated only: acceptable stock levels, but outdated inventory data
+* Both issues: low stock combined with outdated data, indicating the highest risk segment
+
+<img width="751" height="452" alt="image" src="https://github.com/user-attachments/assets/80c56735-83ad-4e63-9dd1-03b451c3737d" />
+
+Across all countries, inventory issues were relatively consistent, averaging around 16%.
+
+<img width="752" height="451" alt="image" src="https://github.com/user-attachments/assets/5ad6055d-7e7d-4dfe-b7fa-c0b7fa4cdee3" />
+
+Initial inventory checks showed a relatively balanced stock distribution across countries. However, Poland recorded the highest number of low-stock products, while Germany had the highest number of outdated items.
+
+### Overstocked Inventory
+The goal of next analysis was to assess and identify overstock levels across different markets based on the relationship between inventory and sales.
+
+Inventory classification logic
+
+Products were categorized based on the ratio between stock quantity and sales to assess inventory health across countries (the analyzed period is the last six months).
+
+* Dead Stock: no sales and positive stock (sales = 0 AND stock > 0)
+* Extreme Overstock: stock-to-sales ratio > 50
+* Overstock: stock-to-sales ratio between 20 and 50
+* Healthy: all remaining products
+
+<img width="725" height="97" alt="image" src="https://github.com/user-attachments/assets/8a8709df-02e1-4550-aa50-202b8aa447c7" />
+
+A significant inventory imbalance was identified across all analyzed markets. More than half of the products in each country were classified as dead stock, indicating items with available inventory but no recorded sales during the analyzed period.
+
+Additionally, a substantial share of products was classified as overstocked or extremely overstocked, suggesting potential inefficiencies in stock allocation and replenishment planning.
+
+### 5. Key Findings
+* The company is profitable and experiencing year-over-year growth.
+* The profit is primarily due to an increase in sales volume rather than an increase in average selling price.
+* Analysis by country revealed a consistent sales pattern across all markets.
+* In a global context, seasonality is present, with November and December being the best months for sales.
+* Shoes and Women were the dominant categories, jointly contributing 53% of total revenue. 
+* All categories showed a similar seasonal trend.
+* There is no correlation between the average price of a subcategory and sales volume.
+* Discounting on orders was common.
+* No significant differences in discount strategy were observed across countries or product categories. 
+* Discount-level analysis revealed that larger discounts did not meaningfully increase sales volume. Average quantity per transaction remained stable across all discount groups, indicating limited impact of discount size on customer purchasing behavior.
+* Inventory issues were distributed similarly across all countries, indicating that stock management challenges were systemic rather than market-specific.
+* A significant cross-market inventory imbalance was observed, driven by a high share of dead stock alongside substantial overstock and extreme overstock levels, indicating systemic inefficiencies in inventory allocation and replenishment planning.
