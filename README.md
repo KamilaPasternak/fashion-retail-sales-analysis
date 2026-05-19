@@ -80,3 +80,18 @@ To assess whether higher-priced product segments were associated with lower sale
 
 Orange bars represent total units sold, while the blue line shows average base price per subcategory.
 
+Subcategory analysis indicated that pricing alone was not a reliable predictor of sales volume. Neither higher-priced nor lower-priced subcategories consistently showed expected sales patterns. Instead, demand appeared to be more strongly influenced by product type.
+
+Four subcategories stood out due to their exceptionally high sales volumes despite being positioned within the mid-price range. However, this trend was not consistent across all mid-priced products, suggesting that factors other than price also played an important role in customer demand.
+
+### Discount Impact Analysis
+Approximately 12% of records in the `discount_pct` column contained empty strings instead of numeric values. These were converted to NULL to preserve missing-value information during analysis.
+Discount values were categorized into three groups: missing values (NULL), orders without discounts (0%), and orders with active discounts (>0%). Only records with confirmed discount values greater than zero were used for promotion impact analysis.
+
+The following analysis was conducted to evaluate how discounts affected sales performance, pricing strategy, and customer purchasing behavior.
+
+<img width="828" height="452" alt="image" src="https://github.com/user-attachments/assets/1b112e70-6864-4d37-977b-53e692687741" />
+<img width="1065" height="49" alt="image" src="https://github.com/user-attachments/assets/89a5b64d-8669-4400-a93d-f4148b9b4898" />
+
+The average discount applied to promotional orders was 14.17%, with discounts ranging from 0.01% to 60.58%. Discounted transactions accounted for a substantial share of total orders, indicating that promotional pricing was a common sales strategy.
+
