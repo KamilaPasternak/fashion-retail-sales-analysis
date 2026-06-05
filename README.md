@@ -142,7 +142,7 @@ A significant inventory imbalance was identified across all analyzed markets. Mo
 Additionally, a substantial share of products was classified as overstocked or extremely overstocked, suggesting potential inefficiencies in stock allocation and replenishment planning.
 
 ### 5. Key Findings
-* The company is profitable and experiencing year-over-year growth.
+* The company is experiencing consistent year-over-year revenue growth.
 * The profit is primarily due to an increase in sales volume rather than an increase in average selling price.
 * Analysis by country revealed a consistent sales pattern across all markets.
 * In a global context, seasonality is present, with November and December being the best months for sales.
@@ -154,3 +154,10 @@ Additionally, a substantial share of products was classified as overstocked or e
 * Discount-level analysis revealed that larger discounts did not meaningfully increase sales volume. Average quantity per transaction remained stable across all discount groups, indicating limited impact of discount size on customer purchasing behavior.
 * Inventory issues were distributed similarly across all countries, indicating that stock management challenges were systemic rather than market-specific.
 * A significant cross-market inventory imbalance was observed, driven by a high share of dead stock alongside substantial overstock and extreme overstock levels, indicating systemic inefficiencies in inventory allocation and replenishment planning.
+
+### 6. Business Recommendations
+* Focus on initiatives that support sales volume growth. Since revenue growth has been volume-driven, maintaining demand should remain a strategic priority.
+* Align inventory planning and marketing activities with seasonal demand peaks in November and December.
+* Continue investing in the Shoes and Women categories. These categories should remain a key focus for merchandising and marketing efforts.
+* Reassess the current discount strategy, as larger discounts did not lead to meaningful increases in sales volume. Future promotions should focus on targeted campaigns rather than deeper discounts.
+* Prioritize inventory optimization initiatives to reduce dead stock and excess inventory. Regular inventory reviews and demand-based replenishment planning could help improve stock turnover and reduce holding costs.
