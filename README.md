@@ -15,6 +15,9 @@ Methodology:
 3. Data preparation and analysis using MySQL.
 4. Results visualization and calculation in Excel.
 
+The detailed data cleaning and preparation process is described in a separate project, linked below.
+https://github.com/KamilaPasternak/retail-sales-data-cleaning-exploratory-analysis
+
 ## 📊 Results
 ### 1. Revenue Trend Over Time
 The chart below shows annual revenue from 2015 to 2024, along with year-over-year percentage growth.
