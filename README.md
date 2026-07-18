@@ -164,3 +164,6 @@ Additionally, a substantial share of products was classified as overstocked or e
 * Continue investing in the Shoes and Women categories. These categories should remain a key focus for merchandising and marketing efforts.
 * Reassess the current discount strategy, as larger discounts did not lead to meaningful increases in sales volume. Future promotions should focus on targeted campaigns rather than deeper discounts.
 * Prioritize inventory optimization initiatives to reduce dead stock and excess inventory. Regular inventory reviews and demand-based replenishment planning could help improve stock turnover and reduce holding costs.
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b0a9b28d-5597-4821-9756-f8cdb11775e3" />
+
